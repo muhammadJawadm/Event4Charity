@@ -92,7 +92,7 @@ a:hover {
 
 /* Logo Styles */
 .logo-img {
-    height: 110px;
+    height: 50px;
     width: auto;
     transition: var(--transition);
 }
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .footer-logo-img {
-    height: 110px;
+    height: 50px;
     width: auto;
     filter: brightness(0) invert(1);
 }
@@ -319,8 +319,8 @@ a:hover {
         display: inline-block;
     }
     
-    .logo-img {
-        height: 40px;
+    .logo-img { 
+        height: 10px;
     }
 }
 
@@ -341,13 +341,14 @@ a:hover {
     width: 100%;
     height: 100%;
     z-index: -2;
+    filter:brightness(0.5)
 }
 
 .hero-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.4);
+    /* filter: brightness(0.4); */
 }
 
 .hero-overlay {
@@ -1097,7 +1098,7 @@ a:hover {
     }
     
     .logo-img {
-        height: 15px;
+        height: 35px;
     }
     
     .nav-container {
