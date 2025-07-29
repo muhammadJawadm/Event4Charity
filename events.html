@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upcoming Events - EventForCharity</title>
+    <title>Events - EventForCharity</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Logo/Logos-03.png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>EventForCharity</h2>
+                <a href="index.html">
+                    <img src="Logo/Logos-01.png" alt="EventForCharity Logo" class="logo-img">
+                </a>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -21,7 +24,7 @@
                 <li><a href="services.html" class="nav-link">Services</a></li>
                 <li><a href="events.html" class="nav-link active">Events</a></li>
                 <li><a href="contact.html" class="nav-link">Contact</a></li>
-                <li><a href="#donate" class="nav-link btn-donate">Donate Now</a></li>
+                <li><a href="#donate" class="nav-link btn-donate">Register Now</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -35,7 +38,7 @@
     <section class="page-header">
         <div class="container">
             <h1>Upcoming Events</h1>
-            <p>Join us in making a difference through community-powered fundraising events and campaigns.</p>
+            <p>Join us in making a difference through community-driven fundraising events and initiatives.</p>
         </div>
     </section>
 
@@ -46,36 +49,43 @@
             <section class="content-section">
                 <div class="section-header">
                     <h2>Featured Event</h2>
-                    <p>Don't miss our biggest fundraising event of the year</p>
+                    <p>Don't miss our signature fundraising event of the year</p>
                 </div>
-                <div class="service-card" style="padding: 3rem; background: linear-gradient(135deg, var(--primary-color), var(--success-color)); color: var(--text-white);">
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
-                        <div>
-                            <h3 style="color: var(--text-white); font-size: 2.5rem; margin-bottom: 1rem;">Annual Charity Marathon</h3>
-                            <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.25rem; margin-bottom: 1.5rem;">Join thousands of runners in our flagship fundraising event. Whether you run, walk, or volunteer, be part of something extraordinary.</p>
-                            <div style="display: flex; gap: 2rem; margin-bottom: 2rem;">
-                                <div>
-                                    <i class="fas fa-calendar-alt" style="margin-right: 0.5rem;"></i>
-                                    <strong>March 15, 2025</strong>
-                                </div>
-                                <div>
-                                    <i class="fas fa-map-marker-alt" style="margin-right: 0.5rem;"></i>
-                                    <strong>Central Park, London</strong>
-                                </div>
+                <div class="service-card" style="max-width: 800px; margin: 0 auto;">
+                    <div class="service-image" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Annual Charity Gala">
+                    </div>
+                    <div class="service-content" style="padding: 3rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1.5rem;">
+                            <div>
+                                <h3 style="margin-bottom: 0.5rem;">Annual Charity Gala 2025</h3>
+                                <p style="color: var(--primary-color); font-weight: 600; margin: 0;">Saturday, March 15, 2025 • 7:00 PM</p>
                             </div>
-                            <div style="display: flex; gap: 1rem;">
-                                <a href="contact.html" class="btn" style="background-color: var(--text-white); color: var(--primary-color);">Register Now</a>
-                                <a href="#" class="btn btn-outline" style="border-color: var(--text-white); color: var(--text-white);">Learn More</a>
+                            <div style="text-align: right;">
+                                <p style="font-size: 1.5rem; font-weight: 700; color: var(--primary-color); margin: 0;">£75</p>
+                                <p style="font-size: 0.875rem; color: var(--text-light); margin: 0;">per person</p>
                             </div>
                         </div>
-                        <div>
-                            <img src="https://pixabay.com/get/g3515151300dea5591203bdffc201a43638d94de986e73a3e2987f98b8a3e4f7140b7d04c46759422e5d900aeb113d4faa2e8caeacbc6dca18a7c4f31918d9c47_1280.jpg" alt="Marathon event" style="width: 100%; border-radius: var(--border-radius-lg);">
+                        <p>Join us for an elegant evening of dining, entertainment, and fundraising. This year's gala will support three local charities working to combat homelessness in our community.</p>
+                        <div style="margin: 2rem 0;">
+                            <h4>Event Highlights:</h4>
+                            <ul style="margin-left: 1.5rem; color: var(--text-secondary);">
+                                <li>Three-course dinner by award-winning chef Marcus Thompson</li>
+                                <li>Live auction featuring exclusive experiences and artwork</li>
+                                <li>Musical performance by local symphony orchestra</li>
+                                <li>Keynote speech by renowned humanitarian Dr. Sarah Williams</li>
+                                <li>Silent auction with over 100 items</li>
+                            </ul>
+                        </div>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <a href="#register" class="btn btn-primary">Register Now</a>
+                            <a href="#" class="btn btn-outline">Learn More</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Upcoming Events Grid -->
+            <!-- Upcoming Events -->
             <section class="content-section">
                 <div class="section-header">
                     <h2>Upcoming Events</h2>
@@ -83,163 +93,246 @@
                 </div>
                 <div class="services-grid">
                     <div class="service-card">
-                        <img src="https://pixabay.com/get/g161d8071461b769789ad6b76e32bc4b3fc672d4f112b533d6e76fdaf4a3a2e93380ed02273729d32f924712d244cade148d3101762515844defe23700bc576ae_1280.jpg" alt="Photography contest" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Charity Photography Contest</h3>
-                        <p><strong>February 1-28, 2025</strong></p>
-                        <p>Capture moments of kindness and community spirit. Submit your photos for a chance to win prizes while supporting local charities.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Enter Contest <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Charity Run">
+                        </div>
+                        <div class="service-content">
+                            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                                <h3>5K Charity Run</h3>
+                                <span style="background: var(--success-color); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">FREE</span>
+                            </div>
+                            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">February 22, 2025 • 9:00 AM</p>
+                            <p>Join hundreds of runners in our annual 5K charity run supporting children's education initiatives.</p>
+                            <div style="margin: 1.5rem 0;">
+                                <p><strong>Location:</strong> Central Park, Main Entrance</p>
+                                <p><strong>Registration:</strong> Free (donations welcome)</p>
+                            </div>
+                            <a href="#register" class="btn btn-outline">Register</a>
                         </div>
                     </div>
                     
                     <div class="service-card">
-                        <img src="https://pixabay.com/get/gffc3afa1fc8947e8eb2b253357091fe19a1a16e1add720be0dc8555751a0d6cbaa0196bb9b3dd9af0ced28b6f79a1b8250ee7b11e2295fdf5a040e95e9e6c8a1_1280.jpg" alt="Virtual fundraising" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Virtual Giving Challenge</h3>
-                        <p><strong>February 14-21, 2025</strong></p>
-                        <p>A week-long digital fundraising challenge where communities compete to raise funds for their chosen charities.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Join Challenge <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Bake Sale">
+                        </div>
+                        <div class="service-content">
+                            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                                <h3>Community Bake Sale</h3>
+                                <span style="background: var(--secondary-color); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">£2-10</span>
+                            </div>
+                            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">March 1, 2025 • 10:00 AM - 4:00 PM</p>
+                            <p>Delicious homemade treats to support our local animal shelter. All proceeds go directly to animal care.</p>
+                            <div style="margin: 1.5rem 0;">
+                                <p><strong>Location:</strong> Town Square</p>
+                                <p><strong>Volunteers needed:</strong> Bakers & helpers</p>
+                            </div>
+                            <a href="#register" class="btn btn-outline">Volunteer</a>
                         </div>
                     </div>
                     
                     <div class="service-card">
-                        <img src="https://pixabay.com/get/g2aff179bac0379ad66730ba75638acd5521295a4ec72c5e1fa74c584f13a999235bc2460b5b76e1e78810b86c0a09e8780d4b0195154ce072ec0aeb071d674ca_1280.jpg" alt="Community dinner" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Community Appreciation Dinner</h3>
-                        <p><strong>March 8, 2025</strong></p>
-                        <p>An evening celebrating our charity partners and volunteers, featuring local speakers and live entertainment.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Get Tickets <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Charity Auction">
+                        </div>
+                        <div class="service-content">
+                            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                                <h3>Silent Auction Night</h3>
+                                <span style="background: var(--accent-color); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">£25</span>
+                            </div>
+                            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">March 8, 2025 • 6:00 PM</p>
+                            <p>Bid on amazing items and experiences while supporting mental health awareness programs.</p>
+                            <div style="margin: 1.5rem 0;">
+                                <p><strong>Location:</strong> Community Center</p>
+                                <p><strong>Includes:</strong> Light refreshments</p>
+                            </div>
+                            <a href="#register" class="btn btn-outline">Get Tickets</a>
                         </div>
                     </div>
                     
                     <div class="service-card">
-                        <img src="https://pixabay.com/get/gc9176b25711c1729cf7c8d380fb12e1e2d8e572ade282a7f85c9f1c240a0c2eb11b9a39a2e06742aaba2378a0a7fb6a91f23385530c3279a5421a4ab60b67e66_1280.jpg" alt="Skills workshop" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Digital Fundraising Workshop</h3>
-                        <p><strong>March 22, 2025</strong></p>
-                        <p>Free workshop for charity professionals on maximizing digital fundraising success using modern tools and strategies.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Register Free <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Volunteer Day">
                         </div>
-                    </div>
-                    
-                    <div class="service-card">
-                        <img src="https://pixabay.com/get/gb4a5ceecde41edf3ea929ecff56e497f292d72a609d630a72c84229427e8ae5de169626f3b452f3d8408ad26c7cead1e08fd898e8483e07dc83392b648646046_1280.png" alt="Youth initiative" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Youth Leadership Summit</h3>
-                        <p><strong>April 5, 2025</strong></p>
-                        <p>Empowering the next generation of charity leaders through workshops, networking, and mentorship opportunities.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Apply Now <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    
-                    <div class="service-card">
-                        <img src="https://pixabay.com/get/g6bda014c82eb943626cc7f4b1f7f0f9c4f78c61badc9be283fcf9142df0198e2d1808857005b73804fd1d850b5f0e0f5e30c72599d48083fcd051bc41de1171e_1280.jpg" alt="Annual gala" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 1rem;">
-                        <h3>Annual Impact Gala</h3>
-                        <p><strong>May 20, 2025</strong></p>
-                        <p>Our premier black-tie event celebrating the year's achievements and raising funds for our charity partners.</p>
-                        <div style="margin-top: auto;">
-                            <a href="contact.html" class="service-link">Reserve Table <i class="fas fa-arrow-right"></i></a>
+                        <div class="service-content">
+                            <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                                <h3>Community Clean-Up</h3>
+                                <span style="background: var(--success-color); color: white; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600;">FREE</span>
+                            </div>
+                            <p style="color: var(--primary-color); font-weight: 600; margin-bottom: 1rem;">March 22, 2025 • 10:00 AM</p>
+                            <p>Join us for a community clean-up day to beautify our local parks and green spaces.</p>
+                            <div style="margin: 1.5rem 0;">
+                                <p><strong>Location:</strong> Riverside Park</p>
+                                <p><strong>Provided:</strong> Gloves, bags, refreshments</p>
+                            </div>
+                            <a href="#register" class="btn btn-outline">Join Us</a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Event Categories -->
+            <!-- Past Events -->
             <section class="content-section">
                 <div class="section-header">
-                    <h2>Event Categories</h2>
-                    <p>Find events that match your interests and availability</p>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-running"></i>
-                        </div>
-                        <h3>Sports & Fitness</h3>
-                        <p>Marathons, cycling events, fitness challenges, and outdoor adventures that combine health with fundraising.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3>Creative & Cultural</h3>
-                        <p>Art exhibitions, photography contests, music concerts, and cultural celebrations supporting the arts.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-laptop"></i>
-                        </div>
-                        <h3>Virtual Events</h3>
-                        <p>Online fundraising challenges, webinars, virtual galas, and digital campaigns accessible from anywhere.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3>Educational</h3>
-                        <p>Workshops, seminars, training sessions, and conferences designed to build skills and knowledge.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- How to Participate -->
-            <section class="content-section">
-                <div class="section-header">
-                    <h2>How to Get Involved</h2>
-                    <p>Multiple ways to participate and make a difference</p>
-                </div>
-                <div class="two-column">
-                    <div>
-                        <h3>As a Participant</h3>
-                        <p>Join our events as a participant, competitor, or attendee. Every registration helps support our charity partners and their vital work in the community.</p>
-                        <ul style="margin: 1.5rem 0; color: var(--text-secondary);">
-                            <li><strong>Register for events</strong> - Choose events that match your interests</li>
-                            <li><strong>Set fundraising goals</strong> - Create your personal fundraising page</li>
-                            <li><strong>Share your story</strong> - Tell friends and family why you're participating</li>
-                            <li><strong>Track your impact</strong> - See how your efforts make a difference</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-primary">Browse Events</a>
-                    </div>
-                    <div>
-                        <h3>As a Volunteer</h3>
-                        <p>Behind every successful event are dedicated volunteers who help make the magic happen. Join our volunteer community and be part of something special.</p>
-                        <ul style="margin: 1.5rem 0; color: var(--text-secondary);">
-                            <li><strong>Event support</strong> - Help with registration, logistics, and coordination</li>
-                            <li><strong>Skill-based volunteering</strong> - Contribute your professional expertise</li>
-                            <li><strong>Mentorship</strong> - Guide new charity leaders and participants</li>
-                            <li><strong>Ongoing support</strong> - Join our regular volunteer programs</li>
-                        </ul>
-                        <a href="contact.html" class="btn btn-outline">Volunteer Today</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Success Stories -->
-            <section class="content-section">
-                <div class="section-header">
-                    <h2>Event Success Stories</h2>
-                    <p>See the impact our events have made</p>
+                    <h2>Recent Success Stories</h2>
+                    <p>See the impact of our recent fundraising events</p>
                 </div>
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <h4>2024 Charity Marathon</h4>
-                            <p><strong>£125,000 raised</strong></p>
-                            <p>Over 2,000 participants came together to support 15 local charities, exceeding our fundraising goal by 25% and creating lasting community connections.</p>
+                            <h4>Winter Charity Drive 2024</h4>
+                            <p><strong>£15,000 raised</strong> for local homeless shelters</p>
+                            <p>Our winter charity drive exceeded all expectations, providing warm clothing, meals, and shelter for over 200 individuals during the coldest months of the year.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="Winter Drive">
+                            </div>
+                            <div class="author-info">
+                                <h4>Winter Charity Drive</h4>
+                                <p>December 2024</p>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <h4>Virtual Challenge Series</h4>
-                            <p><strong>£75,000 raised</strong></p>
-                            <p>Six months of virtual challenges engaged participants across the UK, proving that distance is no barrier to making a difference together.</p>
+                            <h4>Children's Hospital Fundraiser</h4>
+                            <p><strong>£22,500 raised</strong> for medical equipment</p>
+                            <p>Thanks to our generous community, we purchased vital medical equipment for the children's ward, directly improving care for young patients.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="Hospital Fundraiser">
+                            </div>
+                            <div class="author-info">
+                                <h4>Hospital Fundraiser</h4>
+                                <p>November 2024</p>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
-                            <h4>Annual Impact Gala</h4>
-                            <p><strong>£200,000 raised</strong></p>
-                            <p>Our flagship evening event brought together business leaders, charity partners, and community members for an unforgettable night of giving.</p>
+                            <h4>Education Support Marathon</h4>
+                            <p><strong>£18,750 raised</strong> for school supplies</p>
+                            <p>Our marathon event brought together 300 runners and raised funds to provide school supplies and educational resources to underprivileged children.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="Education Marathon">
+                            </div>
+                            <div class="author-info">
+                                <h4>Education Marathon</h4>
+                                <p>October 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Event Registration -->
+            <section id="register" class="content-section">
+                <div class="section-header">
+                    <h2>Event Registration</h2>
+                    <p>Sign up for upcoming events and make a difference in your community</p>
+                </div>
+                <div class="two-column">
+                    <div>
+                        <h3>Register for Events</h3>
+                        <p>Join our community of changemakers and participate in meaningful events that create lasting impact.</p>
+                        
+                        <form class="contact-form" style="margin-top: 2rem;">
+                            <div style="margin-bottom: 1rem;">
+                                <label for="eventSelect" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Select Event *</label>
+                                <select id="eventSelect" name="eventSelect" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                                    <option value="">Choose an event</option>
+                                    <option value="gala">Annual Charity Gala 2025</option>
+                                    <option value="run">5K Charity Run</option>
+                                    <option value="bake">Community Bake Sale (Volunteer)</option>
+                                    <option value="auction">Silent Auction Night</option>
+                                    <option value="cleanup">Community Clean-Up</option>
+                                </select>
+                            </div>
+                            
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                                <div>
+                                    <label for="firstName" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                                </div>
+                                <div>
+                                    <label for="lastName" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                                </div>
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email Address *</label>
+                                <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                            </div>
+                            
+                            <div style="margin-bottom: 1rem;">
+                                <label for="participants" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Number of Participants</label>
+                                <select id="participants" name="participants" style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; transition: var(--transition);">
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5+">5+ People</option>
+                                </select>
+                            </div>
+                            
+                            <div style="margin-bottom: 1.5rem;">
+                                <label for="specialRequests" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Special Requests or Dietary Requirements</label>
+                                <textarea id="specialRequests" name="specialRequests" rows="3" style="width: 100%; padding: 12px; border: 2px solid var(--border-color); border-radius: var(--border-radius); font-size: 16px; resize: vertical; transition: var(--transition);"></textarea>
+                            </div>
+                            
+                            <div style="margin-bottom: 1.5rem;">
+                                <label style="display: flex; align-items: center; gap: 0.5rem; font-size: 14px; color: var(--text-secondary);">
+                                    <input type="checkbox" required style="margin: 0;">
+                                    I agree to receive event updates and have read the <a href="#" style="color: var(--primary-color);">Terms & Conditions</a>
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Register for Event</button>
+                        </form>
+                    </div>
+                    
+                    <div>
+                        <div class="service-card" style="margin-bottom: 2rem;">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Volunteer Opportunities">
+                            </div>
+                            <div class="service-content">
+                                <h3>Volunteer Opportunities</h3>
+                                <p>Want to help organize events? We're always looking for dedicated volunteers to join our team.</p>
+                                <ul style="margin: 1rem 0; color: var(--text-secondary);">
+                                    <li>Event planning and coordination</li>
+                                    <li>Day-of-event support</li>
+                                    <li>Marketing and promotion</li>
+                                    <li>Registration and check-in</li>
+                                </ul>
+                                <a href="contact.html" class="btn btn-outline">Become a Volunteer</a>
+                            </div>
+                        </div>
+                        
+                        <div class="service-card">
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Corporate Sponsorship">
+                            </div>
+                            <div class="service-content">
+                                <h3>Corporate Sponsorship</h3>
+                                <p>Partner with us to make a bigger impact while gaining valuable exposure for your business.</p>
+                                <ul style="margin: 1rem 0; color: var(--text-secondary);">
+                                    <li>Brand visibility at events</li>
+                                    <li>Corporate social responsibility</li>
+                                    <li>Employee engagement opportunities</li>
+                                    <li>Tax-deductible contributions</li>
+                                </ul>
+                                <a href="contact.html" class="btn btn-outline">Explore Sponsorship</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,10 +345,10 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Ready to Make a Difference?</h2>
-                <p>Join our community of changemakers and be part of events that create lasting impact.</p>
+                <p>Join our community of changemakers and participate in events that create lasting impact.</p>
                 <div class="cta-actions">
-                    <a href="contact.html" class="btn btn-primary">Join Our Next Event</a>
-                    <a href="contact.html" class="btn btn-outline">Organize Your Event</a>
+                    <a href="#register" class="btn btn-secondary">Register for Events</a>
+                    <a href="contact.html" class="btn btn-outline">Become a Volunteer</a>
                 </div>
             </div>
         </div>
@@ -266,7 +359,9 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>EventForCharity</h3>
+                    <div class="footer-logo">
+                        <img src="Logo/Logos-01.png" alt="EventForCharity Logo" class="footer-logo-img">
+                    </div>
                     <p>Empowering charities to create meaningful connections and drive lasting change through innovative fundraising solutions.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -308,5 +403,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

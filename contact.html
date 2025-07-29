@@ -7,13 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="Logo/Logos-03.png">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>EventForCharity</h2>
+                <a href="index.html">
+                    <img src="Logo/Logos-01.png" alt="EventForCharity Logo" class="logo-img">
+                </a>
             </div>
             <ul class="nav-menu">
                 <li><a href="index.html" class="nav-link">Home</a></li>
@@ -21,7 +24,7 @@
                 <li><a href="services.html" class="nav-link">Services</a></li>
                 <li><a href="events.html" class="nav-link">Events</a></li>
                 <li><a href="contact.html" class="nav-link active">Contact</a></li>
-                <li><a href="#donate" class="nav-link btn-donate">Donate Now</a></li>
+                <li><a href="#donate" class="nav-link btn-donate">Register Now</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -101,21 +104,31 @@
                     
                     <div>
                         <div class="service-card" style="margin-bottom: 2rem;">
-                            <h3>Request a Demo</h3>
-                            <p>See EventForCharity in action with a personalized demo tailored to your charity's needs.</p>
-                            <ul style="margin: 1rem 0; color: var(--text-secondary);">
-                                <li>30-minute personalized demonstration</li>
-                                <li>See your charity's branding in action</li>
-                                <li>Ask questions and get expert advice</li>
-                                <li>No commitment required</li>
-                            </ul>
-                            <a href="#" class="btn btn-outline">Schedule Demo</a>
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Request Demo">
+                            </div>
+                            <div class="service-content">
+                                <h3>Request a Demo</h3>
+                                <p>See EventForCharity in action with a personalized demo tailored to your charity's needs.</p>
+                                <ul style="margin: 1rem 0; color: var(--text-secondary);">
+                                    <li>30-minute personalized demonstration</li>
+                                    <li>See your charity's branding in action</li>
+                                    <li>Ask questions and get expert advice</li>
+                                    <li>No commitment required</li>
+                                </ul>
+                                <a href="#" class="btn btn-outline">Schedule Demo</a>
+                            </div>
                         </div>
                         
                         <div class="service-card">
-                            <h3>Quick Start Guide</h3>
-                            <p>Ready to get started immediately? Download our quick start guide and begin your fundraising transformation today.</p>
-                            <a href="#" class="btn btn-outline">Download Guide</a>
+                            <div class="service-image">
+                                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Quick Start Guide">
+                            </div>
+                            <div class="service-content">
+                                <h3>Quick Start Guide</h3>
+                                <p>Ready to get started immediately? Download our quick start guide and begin your fundraising transformation today.</p>
+                                <a href="#" class="btn btn-outline">Download Guide</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,42 +142,62 @@
                 </div>
                 <div class="services-grid">
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-phone"></i>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Phone Support">
                         </div>
-                        <h3>Phone Support</h3>
-                        <p><strong>+44 (0) 20 7123 4567</strong></p>
-                        <p>Monday - Friday: 9:00 AM - 6:00 PM GMT<br>
-                        Saturday: 10:00 AM - 4:00 PM GMT</p>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Phone Support</h3>
+                            <p><strong>+44 (0) 20 7123 4567</strong></p>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM GMT<br>
+                            Saturday: 10:00 AM - 4:00 PM GMT</p>
+                        </div>
                     </div>
                     
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-envelope"></i>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1596526131083-e8c633c948d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Email Support">
                         </div>
-                        <h3>Email Support</h3>
-                        <p><strong>hello@eventforcharity.com</strong></p>
-                        <p>We typically respond within 4 hours during business hours.</p>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email Support</h3>
+                            <p><strong>hello@eventforcharity.com</strong></p>
+                            <p>We typically respond within 4 hours during business hours.</p>
+                        </div>
                     </div>
                     
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-comments"></i>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Live Chat">
                         </div>
-                        <h3>Live Chat</h3>
-                        <p><strong>Available on our website</strong></p>
-                        <p>Get instant help from our support team during business hours.</p>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h3>Live Chat</h3>
+                            <p><strong>Available on our website</strong></p>
+                            <p>Get instant help from our support team during business hours.</p>
+                        </div>
                     </div>
                     
                     <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-map-marker-alt"></i>
+                        <div class="service-image">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Office Address">
                         </div>
-                        <h3>Office Address</h3>
-                        <p><strong>EventForCharity HQ</strong><br>
-                        123 Charity Lane<br>
-                        London, EC1A 1BB<br>
-                        United Kingdom</p>
+                        <div class="service-content">
+                            <div class="service-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Office Address</h3>
+                            <p><strong>EventForCharity HQ</strong><br>
+                            123 Charity Lane<br>
+                            London, EC1A 1BB<br>
+                            United Kingdom</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -225,6 +258,15 @@
                             <p><strong>sarah@eventforcharity.com</strong></p>
                             <p>Strategic partnerships, enterprise solutions, and platform vision. Sarah loves helping charities think big about their digital future.</p>
                         </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="Sarah Mitchell">
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Mitchell</h4>
+                                <p>CEO</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
@@ -232,12 +274,30 @@
                             <p><strong>david@eventforcharity.com</strong></p>
                             <p>Platform demos, pricing discussions, and getting you started. David makes the onboarding process smooth and straightforward.</p>
                         </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="David Thompson">
+                            </div>
+                            <div class="author-info">
+                                <h4>David Thompson</h4>
+                                <p>Head of Sales</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="testimonial-card">
                         <div class="testimonial-content">
                             <h4>Lisa Patel - Customer Success</h4>
                             <p><strong>lisa@eventforcharity.com</strong></p>
                             <p>Ongoing support, training, and optimization. Lisa ensures you get the most out of your EventForCharity experience.</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=60&q=80" alt="Lisa Patel">
+                            </div>
+                            <div class="author-info">
+                                <h4>Lisa Patel</h4>
+                                <p>Customer Success</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -252,7 +312,7 @@
                 <h2>Ready to Get Started?</h2>
                 <p>Join hundreds of charities already transforming their fundraising with EventForCharity.</p>
                 <div class="cta-actions">
-                    <a href="#" class="btn btn-primary">Book Your Demo</a>
+                    <a href="#" class="btn btn-secondary">Book Your Demo</a>
                     <a href="services.html" class="btn btn-outline">View Pricing</a>
                 </div>
             </div>
@@ -264,7 +324,9 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>EventForCharity</h3>
+                    <div class="footer-logo">
+                        <img src="Logo/Logos-01.png" alt="EventForCharity Logo" class="footer-logo-img">
+                    </div>
                     <p>Empowering charities to create meaningful connections and drive lasting change through innovative fundraising solutions.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook"></i></a>
@@ -307,31 +369,6 @@
         </div>
     </footer>
 
-    <!-- Form Styling -->
-    <style>
-        .contact-form input:focus,
-        .contact-form textarea:focus,
-        .contact-form select:focus {
-            border-color: var(--primary-color);
-            outline: none;
-            box-shadow: 0 0 0 3px rgba(45, 80, 22, 0.1);
-        }
-        
-        .contact-form input:invalid,
-        .contact-form textarea:invalid {
-            border-color: var(--error-color);
-        }
-        
-        .contact-form input:valid,
-        .contact-form textarea:valid {
-            border-color: var(--success-color);
-        }
-        
-        @media (max-width: 768px) {
-            .contact-form > div:first-child {
-                grid-template-columns: 1fr !important;
-            }
-        }
-    </style>
+    <script src="script.js"></script>
 </body>
 </html>
