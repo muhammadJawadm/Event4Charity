@@ -92,7 +92,7 @@ a:hover {
 
 /* Logo Styles */
 .logo-img {
-    height: 50px;
+    height: 110px;
     width: auto;
     transition: var(--transition);
 }
@@ -106,7 +106,7 @@ a:hover {
 }
 
 .footer-logo-img {
-    height: 50px;
+    height: 110px;
     width: auto;
     filter: brightness(0) invert(1);
 }
